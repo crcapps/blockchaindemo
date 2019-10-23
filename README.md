@@ -68,3 +68,4 @@ Ensure you do not have any browser plugins that will thwart browser fingerprinti
 1. HTML Views/Templating Engines
 1. CSS Preprocessors
 1. ES6 Generators/Yield
+1. ES6 Class Syntax
