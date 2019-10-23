@@ -14,6 +14,7 @@ Demo app and api for cryptographic blockchain with nonfungible tokens
 Ensure you do not have any browser plugins that will thwart browser fingerprinting.
 
 ## The Main Thing I Learned
+
 **_Browser Fingerprinting!_**
 
 ## Important Concepts Demonstrated
