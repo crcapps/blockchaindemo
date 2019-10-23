@@ -1,0 +1,40 @@
+{
+  "name": "blockchaindemo",
+  "version": "1.0.0",
+  "description": "Demo app and api for cryptographic blockchain",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "engines": {
+    "node": "12.0.12"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crcapps/blockchaindemo.git"
+  },
+  "keywords": [
+    "blockchain",
+    "cryptocurrency"
+  ],
+  "author": "Casey Capps",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crcapps/blockchaindemo/issues"
+  },
+  "homepage": "https://github.com/crcapps/blockchaindemo#readme",
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "koa": "^2.10.0",
+    "koa-compose": "^4.1.0",
+    "koa-helmet": "^5.2.0",
+    "koa-morgan": "^1.0.1",
+    "koa-response-time": "^2.1.0"
+  }
+}
