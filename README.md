@@ -25,6 +25,11 @@ Ensure you do not have any browser plugins that will thwart browser fingerprinti
     1. Constant Function Expressions
     1. Block Scoped Declarations
     1. Closures
+    1. Array and Object Rest and Spread Operators
+    1. Array and Object Destructuring with Default Values
+    1. Template String Literals and Substitutions
+    1. Computed Property Names
+    1. JSDoc Syntax
 
 1. ### Asynchronicity
 
@@ -38,14 +43,27 @@ Ensure you do not have any browser plugins that will thwart browser fingerprinti
     1. Higher-Order Functions
     1. Currying
 
-1. ### MongoDB
-
 1. ### HTTP Server Concepts
 
     1. Request-Response Model
     1. Routing
     1. Middleware
+    1. Status Codes
     1. RESTful API Architecture
     1. Single-Page Application Architecture
     1. Semantic HTML5
     1. CSS3
+    1. Browser Fingerprinting
+
+1. ### MongoDB
+
+## Things not demostrated here (I know how to do these things, so ask me if it's important)
+
+1. Testing/TDD/BDD (I can do mocha or jest with chai or supertest, using should or expect for assertions)
+1. TypeScript
+1. Mongoose
+1. SQL
+1. JWT/Basic Auth/OAuth2
+1. HTML Views/Templating Engines
+1. CSS Preprocessors
+1. ES6 Generators/Yield
