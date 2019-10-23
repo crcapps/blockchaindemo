@@ -4,6 +4,7 @@ Demo app and api for cryptographic blockchain with nonfungible tokens
 
 ## Quickstart
 
+1. Clone this repository
 1. Copy *.env.dist* to *.env*
 1. Customize *.env* as needed
 1. *npm install*
