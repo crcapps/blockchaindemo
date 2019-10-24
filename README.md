@@ -52,6 +52,7 @@ Ensure you do not have any browser plugins that will thwart browser fingerprinti
     1. Middleware
     1. Status Codes
     1. RESTful API Architecture
+    1. CORS
     1. Single-Page Application Architecture
     1. Semantic HTML5
     1. CSS3
@@ -82,5 +83,6 @@ Ensure you do not have any browser plugins that will thwart browser fingerprinti
 1. CSS Preprocessors
 1. ES6 Generators/Yield
 1. ES6 Class Syntax
+1. ES6 Module Syntax (import) - Not ready for primetime with Node
 1. yarn
 1. GraphQL
