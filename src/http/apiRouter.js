@@ -13,7 +13,7 @@ const {
   getNodes,
   getWallet,
   addBlock
-} = require('./blockChain')
+} = require('./blockChainService')
 
 const blocksRoute = `${API_BASE}${blocks}`
 const blocksMethod = router.get

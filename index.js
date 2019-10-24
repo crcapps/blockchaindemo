@@ -1,6 +1,11 @@
 require('dotenv').config()
-const db = require('./lib/db')
-const { Server } = require('./lib/http')
+
+const {
+  db,
+  http: {
+    Server
+  }
+} = require('./src')
 
 db.init()
   .then(blockChain => {
