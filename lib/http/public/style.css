@@ -29,6 +29,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+
+header,
+main:not(:empty) {
   border-bottom: 1px solid;
   margin-bottom: 1em;
 }
