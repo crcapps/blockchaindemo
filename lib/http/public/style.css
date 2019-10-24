@@ -32,3 +32,16 @@ header {
   border-bottom: 1px solid;
   margin-bottom: 1em;
 }
+
+ol {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+ol>li {
+  border: 1px solid;
+  padding: 0.25em;
+  width: 20em;
+  margin: 0.25em auto;
+}
