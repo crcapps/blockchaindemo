@@ -43,6 +43,19 @@ header {
   align-items: center;
 }
 
+header>div {
+  display: flex;
+  align-items: center;
+}
+
+header>div>img {
+  font-size: 32px;
+}
+
+header>div>img {
+  width: 32px;
+  height: 32px;
+}
 
 header,
 main:not(:empty) {
