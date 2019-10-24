@@ -75,3 +75,11 @@ Ensure you do not have any browser plugins that will thwart browser fingerprinti
 1. ES6 Generators/Yield
 1. ES6 Class Syntax
 1. yarn
+
+## API
+
+1. **GET** */api/v1/blocks* Gets the entire blockchain
+1. **GET** */api/v1/blocks/:index* Gets the block at a particular index
+1. **GET** */api/v1/wallets* Gets all node addresses with their owned blocks
+1. **GET** */api/v1/wallets/:node* Gets all blocks owned by a specific node address
+1. **POST** */api/v1/validate* *{proof: string, node: string}* Attempts to add a block to the chain
