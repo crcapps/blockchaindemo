@@ -76,10 +76,7 @@ const doValidate = (blockChain, db) => async (ctx) => {
       }
       db.update(blockChain)
     } else {
-      ctx.status = 304
-      ctx.body = {
-        message: 'Invalid proof of work'
-      }
+      ctx.throw(422, 'Invalid proof of work')
     }
   }
 }

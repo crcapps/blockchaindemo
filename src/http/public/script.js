@@ -48,7 +48,7 @@ const proveWork = async () => {
         return block
       }
     } catch (error) {
-      //console.error(error) // swallow it for now
+      // swallow it for now
     } finally {
       proof++
     }
