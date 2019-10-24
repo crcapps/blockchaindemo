@@ -55,6 +55,7 @@ Ensure you do not have any browser plugins that will thwart browser fingerprinti
     1. Single-Page Application Architecture
     1. Semantic HTML5
     1. CSS3
+    1. Responsive design
     1. Accessibility
     1. Browser Fingerprinting
     1. Node.js ecosystem and npm
