@@ -1,9 +1,19 @@
-:root {}
+:root {
+  /* Eerie Black */
+  --text-color: #191716;
+  /* White Smoke */
+  --background-color: #F7F7F7;
+  /* Wenge */
+  --link-color: #775253;
+  /* Isabelline */
+  --accent-color: #F2F5EA;
+}
 
 body {
   font-family: 'Titillium Web',
     sans-serif;
-  color: black;
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 
 body * {
@@ -19,6 +29,8 @@ ol {
 
 a {
   text-decoration: none;
+  font-weight: bolder;
+  color: var(--link-color);
 }
 
 a:hover {
@@ -46,7 +58,9 @@ ol {
 
 ol>li {
   border: 1px solid;
+  border-radius: 0.5em;
   padding: 0.25em;
   width: 20em;
   margin: 0.25em auto;
+  background-color: var(--accent-color);
 }
