@@ -4,7 +4,7 @@ Demo app and api for cryptographic blockchain with nonfungible tokens
 
 ## Prerequisites
 
-1. Node.js >= 12
+1. Node.js >= 12.12.0
 1. npm
 1. MongoDB
 
