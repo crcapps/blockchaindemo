@@ -2,6 +2,12 @@
 
 Demo app and api for cryptographic blockchain with nonfungible tokens
 
+## Prerequisites
+
+1. Node.js >= 12
+1. npm
+1. MongoDB
+
 ## Quickstart
 
 1. Clone this repository
@@ -13,10 +19,6 @@ Demo app and api for cryptographic blockchain with nonfungible tokens
 1. navigate to *localhost:3000* unless otherwise specified in *.env*
 
 Ensure you do not have any browser plugins that will thwart browser fingerprinting.
-
-## The Main Thing I Learned
-
-**_Browser Fingerprinting!_**
 
 ## Important Concepts Demonstrated
 
@@ -55,6 +57,7 @@ Ensure you do not have any browser plugins that will thwart browser fingerprinti
     1. CSS3
     1. Accessibility
     1. Browser Fingerprinting
+    1. Node.js ecosystem and npm
 
 1. ### MongoDB
 
@@ -66,6 +69,8 @@ Ensure you do not have any browser plugins that will thwart browser fingerprinti
 1. SQL
 1. JWT/Basic Auth/OAuth2
 1. HTML Views/Templating Engines
+1. Front-end libraries
 1. CSS Preprocessors
 1. ES6 Generators/Yield
 1. ES6 Class Syntax
+1. yarn
